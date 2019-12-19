@@ -1,0 +1,47 @@
+.vending-machine {
+	background: url(../../img/vending.jpg) no-repeat center center fixed;
+	background-size: 45%;
+	height: 95vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.vending-welcome {
+	display: flex;
+	height: 90%;
+	width: 90%;
+	align-self: center;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.vending-welcome .vending-mensaje {
+	width: 35%;
+}
+
+.vending-machine .vending-menu {
+	width: 35%;
+}
+
+.vending-machine .vending-menu h3 {
+	margin-bottom: 2px;
+	text-decoration: underline;
+}
+
+.vending-machine .vending-menu ul {
+	list-style: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+}
+
+.vending-machine .vending-menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.vending-machine .vending-menu a:hover {
+	cursor: pointer;
+	color: salmon;
+}

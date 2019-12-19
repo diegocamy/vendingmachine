@@ -1,0 +1,67 @@
+.saladito {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	overflow: hidden;
+}
+
+.saladito .saladito-menu {
+	display: flex;
+	flex-direction: column;
+	height: 20%;
+	width: 20%;
+	background-color: rgba(255, 255, 255, 0.418);
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.saladito .saladito-menu button {
+	border: none;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin: 5px;
+	font-family: inherit;
+	transition: all 0.2s ease-in;
+	font-weight: bold;
+}
+
+.saladito .saladito-menu button:hover {
+	transform: translateY(-2px);
+	cursor: pointer;
+}
+
+.saladito-btn {
+	background-color: salmon;
+}
+
+.saladito-volver {
+	background-color: black;
+	color: white;
+}
+
+.saladito-volver a {
+	text-decoration: none;
+	color: white;
+}
+
+@keyframes girar {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes aparecer {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
